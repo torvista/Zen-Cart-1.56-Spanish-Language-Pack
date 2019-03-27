@@ -39,13 +39,13 @@ define('TEXT_INFO_LAYOUT_BOX_STATUS_SINGLE', 'Estado de Columna Única: ');
 define('TEXT_INFO_LAYOUT_BOX_STATUS_INFO','Activado= 1 Desactivado=0');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER', 'Orden de Columna Izquierda/Derecha:');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER_SINGLE', 'Orden de Columna Única');
-define('TEXT_INFO_INSERT_INTRO', 'Por favor, introduzca el nuevo cuadro con su información relacionada');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo cuadro con su información relacionada');
 define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este cuadro?');
 define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo Cuadro');
 define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar Cuadro');
 define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar Cuadro');
 define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar cuadro faltante del listado de esta plantilla: ');
-define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiendolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
+define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiéndolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
 define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Restablecer la configuración de los cuadros de la plantilla actual a la por DEFECTO');
 define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los cuadros. Sólo restablecerá el orden por defecto');
 define('TEXT_INFO_BOX_DETAILS','Detalles de Recuadro: ');
@@ -56,7 +56,7 @@ define('HEADING_TITLE_LAYOUT_TEMPLATE', 'Disposición de la Plantilla');
 
 define('TABLE_HEADING_LAYOUT_TITLE', 'Título');
 define('TABLE_HEADING_LAYOUT_VALUE', 'Valor');
-define('TABLE_HEADING_ACTION', 'Acción');
+//define('TABLE_HEADING_ACTION', 'Acción');//steve duplicated constant
 
 
 define('TEXT_MODULE_DIRECTORY', 'Directorio de la disposición del sitio:');

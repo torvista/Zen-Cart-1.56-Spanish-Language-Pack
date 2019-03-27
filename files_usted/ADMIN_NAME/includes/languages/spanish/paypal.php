@@ -44,7 +44,7 @@
   define('TABLE_HEADING_PAYMENT_AMOUNT', 'Cantidad');
   define('TABLE_HEADING_ACTION', 'Acción');
   define('TABLE_HEADING_DATE_ADDED', 'Añadido el');
-  define('TABLE_HEADING_NUM_HISTORY_ENTRIES', 'Numero de entradas en el historial de estado');
+  define('TABLE_HEADING_NUM_HISTORY_ENTRIES', 'Cantidad entradas en el historial de estado');
   define('TABLE_HEADING_ENTRY_NUM', 'Entrada número');
   define('TABLE_HEADING_TRANS_ID', 'ID de trans.');
 

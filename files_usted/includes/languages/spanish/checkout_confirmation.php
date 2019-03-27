@@ -24,6 +24,3 @@ define('NO_COMMENTS_TEXT', 'Ninguno');
 define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Paso final</strong>');
 define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- continúe para confirmar su pedido. ¡Gracias!');
 
-define('OUT_OF_STOCK_CAN_CHECKOUT', 'Los productos marcados ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . 'están agotados .<br />Contáctenos para más información sobre su disponibilidad.');
-
-?>

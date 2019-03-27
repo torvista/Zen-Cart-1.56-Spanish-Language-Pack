@@ -64,7 +64,7 @@ function check_locales($test_names, $language)
 
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <title><?php echo(stristr(PHP_OS, "win") ? 'Windows' : 'Unix'); ?> Server - Test

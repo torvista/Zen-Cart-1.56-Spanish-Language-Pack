@@ -21,5 +21,5 @@
 //
 
   define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Impuestos');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del pedido');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Impuestos del Pedido');
 ?>

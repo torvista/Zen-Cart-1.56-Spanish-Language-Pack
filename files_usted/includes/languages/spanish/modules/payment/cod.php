@@ -20,6 +20,6 @@
 // $Id: cod.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_PAYMENT_COD_TEXT_TITLE', 'Contra reembolso');
-  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', 'Pago contra reembolso');
+  define('MODULE_PAYMENT_COD_TEXT_TITLE', 'Contra Reembolso');
+  define('MODULE_PAYMENT_COD_TEXT_DESCRIPTION', 'Pago contra-reembolso');
 ?>

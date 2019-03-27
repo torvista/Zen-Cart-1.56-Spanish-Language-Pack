@@ -20,9 +20,7 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_SELECT_AN_OPTION', 'Seleccione');
-define('TEXT_SELECT_CUSTOMER', 'Seleccione un cliente');
-define('TEXT_ALL_CUSTOMERS', 'A Todos los Clientes');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'A Todos los Suscriptores del boletín');
-
-?>
+if (!defined('TEXT_SELECT_AN_OPTION')) define('TEXT_SELECT_AN_OPTION', 'Seleccione');
+if (!defined('TEXT_SELECT_CUSTOMER'))define('TEXT_SELECT_CUSTOMER', 'Seleccione un cliente');
+if (!defined('TEXT_ALL_CUSTOMERS')) define('TEXT_ALL_CUSTOMERS', 'A Todos los Clientes');
+if (!defined('TEXT_NEWSLETTER_CUSTOMERS')) define('TEXT_NEWSLETTER_CUSTOMERS', 'A Todos los Suscriptores del boletín');
