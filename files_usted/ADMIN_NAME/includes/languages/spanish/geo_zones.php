@@ -45,7 +45,7 @@ define('TEXT_INFO_NUMBER_ZONES', 'Cantidad de Zonas:');
 define('TEXT_INFO_ZONE_DESCRIPTION', 'Descripción:');
 define('TEXT_INFO_COUNTRY', 'País:');
 define('TEXT_INFO_COUNTRY_ZONE', 'Zona:');
-define('TYPE_BELOW', 'Todas las Zonas');//todo is this right?
+define('TYPE_BELOW', 'Todas las Zonas');
 define('TEXT_ALL_ZONES', 'Todas las Zonas');
 define('TEXT_ALL_COUNTRIES', 'Todas los Países');
 
