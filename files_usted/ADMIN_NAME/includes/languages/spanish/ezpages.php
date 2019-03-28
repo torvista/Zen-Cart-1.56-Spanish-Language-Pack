@@ -39,7 +39,7 @@ define('ERROR_MULTIPLE_HTML_URL', 'Error: Ha definido opciones múltiples del en
 
 define('TABLE_HEADING_ID', 'ID');
 define('TABLE_HEADING_STATUS_HEADER', 'Encabezado:');
-define('TABLE_HEADING_STATUS_SIDEBOX', 'Cuadro:');
+define('TABLE_HEADING_STATUS_SIDEBOX', 'Recuadro:');
 define('TABLE_HEADING_STATUS_FOOTER', 'Pie:');
 define('TABLE_HEADING_STATUS_TOC', 'Table de Contenido:');
 define('TABLE_HEADING_CHAPTER', 'Capítulo:');
@@ -48,8 +48,8 @@ define('TABLE_HEADING_VISIBLE', 'Visible:');
 define('TABLE_HEADING_PAGE_OPEN_NEW_WINDOW', 'Abrir en ventana nueva:');
 define('TABLE_HEADING_PAGE_IS_SSL', 'Página es SSL:');
 define('TABLE_HEADING_PAGE_IS_VISIBLE', 'Page is Visible:');
-define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', 'Se muestra la Página aunque no está en la cabecera, pie o cuadro.<br>
-(Si todos los valores de Visible, Cabecera, Pie y Cuadro están desactivados, el cliente verá Página No Encontrada.)');
+define('TABLE_HEADING_PAGE_IS_VISIBLE_EXPLANATION', 'Se muestra la Página aunque no está en la cabecera, pie o recuadro.<br>
+(Si todos los valores de Visible, Cabecera, Pie y Recuadro están desactivados, el cliente verá Página No Encontrada.)');
 
 define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> páginas)');
 define('IMAGE_NEW_PAGE', 'Página Nueva');
@@ -80,7 +80,7 @@ define('TEXT_ALT_URL_EXTERNAL_EXPLAIN', ' Si así está definido, se ignorará e
 define('TEXT_SORT_CHAPTER_TOC_TITLE_INFO', 'Orden de Listado: ');
 define('TEXT_SORT_CHAPTER_TOC_TITLE', 'Capítulo/TdC');
 define('TEXT_SORT_HEADER_TITLE', 'Encabezado');
-define('TEXT_SORT_SIDEBOX_TITLE', 'Cuadro');
+define('TEXT_SORT_SIDEBOX_TITLE', 'Recuadro');
 define('TEXT_SORT_FOOTER_TITLE', 'Pie de Página');
 define('TEXT_SORT_PAGE_TITLE', 'Título de la Página');
 define('TEXT_SORT_PAGE_ID_TITLE', 'ID de la Página, Título');

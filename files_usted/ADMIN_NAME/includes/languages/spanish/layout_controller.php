@@ -22,7 +22,7 @@
 
 define('HEADING_TITLE', 'Cuadros de las Columnas');
 
-define('TABLE_HEADING_LAYOUT_BOX_NAME', 'Nombre del archivo del cuadro');
+define('TABLE_HEADING_LAYOUT_BOX_NAME', 'Nombre del archivo del recuadro');
 define('TABLE_HEADING_LAYOUT_BOX_STATUS', 'Columna Izq/Dch<br />ESTATUS');
 define('TABLE_HEADING_LAYOUT_BOX_STATUS_SINGLE', 'Columna Única<br />ESTATUS');
 define('TABLE_HEADING_LAYOUT_BOX_LOCATION', 'Columna<br />IZQ/DCH');
@@ -31,20 +31,20 @@ define('TABLE_HEADING_LAYOUT_BOX_SORT_ORDER_SINGLE', 'Columna Única<br />ORDEN'
 define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_EDIT_INTRO', 'Haga los cambios necesarios');
-define('TEXT_INFO_LAYOUT_BOX','Cuadro seleccionado: ');
-define('TEXT_INFO_LAYOUT_BOX_NAME', 'Nombre del Cuadro:');
+define('TEXT_INFO_LAYOUT_BOX','Recuadro: ');
+define('TEXT_INFO_LAYOUT_BOX_NAME', 'Nombre del Recuadro:');
 define('TEXT_INFO_LAYOUT_BOX_LOCATION','Ubicación: (la Columna Singular ignora este dato)');
 define('TEXT_INFO_LAYOUT_BOX_STATUS', 'Estado de Columna Izquierda/Derecha: ');
 define('TEXT_INFO_LAYOUT_BOX_STATUS_SINGLE', 'Estado de Columna Única: ');
 define('TEXT_INFO_LAYOUT_BOX_STATUS_INFO','Activado= 1 Desactivado=0');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER', 'Orden de Columna Izquierda/Derecha:');
 define('TEXT_INFO_LAYOUT_BOX_SORT_ORDER_SINGLE', 'Orden de Columna Única');
-define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo cuadro con su información relacionada');
-define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este cuadro?');
-define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo Cuadro');
-define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar Cuadro');
-define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar Cuadro');
-define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar cuadro faltante del listado de esta plantilla: ');
+define('TEXT_INFO_INSERT_INTRO', 'Introduzca el nuevo recuadro con su información relacionada');
+define('TEXT_INFO_DELETE_INTRO', '¿Seguro que desea eliminar este recuadro?');
+define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo Recuadro');
+define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar Recuadro');
+define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar Recuadro');
+define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar recuadro faltante del listado de esta plantilla: ');
 define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiéndolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
 define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Restablecer la configuración de los cuadros de la plantilla actual a la por DEFECTO');
 define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los cuadros. Sólo restablecerá el orden por defecto');
@@ -73,9 +73,9 @@ define('TEXT_BAD_BOX','<font color="ff0000"><b>FALTA</b></font><br />');
 
 
 // Success message
-define('SUCCESS_BOX_DELETED', 'Borrado correctamente de la plantilla del cuadro: ');
+define('SUCCESS_BOX_DELETED', 'Borrado correctamente de la plantilla del recuadro: ');
 define('SUCCESS_BOX_RESET', 'La configuración de todos los cuadros fue restablecida correctamente al configuración por defecto de la Plantilla: ');
-define('SUCCESS_BOX_UPDATED', 'Configuración del cuadro actualizada correctamente: ');
+define('SUCCESS_BOX_UPDATED', 'Configuración del recuadro actualizada correctamente: ');
 
 define('TEXT_ON', ' ACTIVADO ');
 define('TEXT_OFF', ' DESACTIVADO ');

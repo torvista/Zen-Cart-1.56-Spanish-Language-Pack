@@ -15,8 +15,8 @@ define('CONNECTION_TYPE_UNKNOWN', '\'%s\' no es un tipo de conexión válido par
 
 // added defines for header alt and text
 define('HEADER_ALT_TEXT', 'Admin Zen Cart :: El Arte de E-Comercio');
-define('HEADER_LOGO_WIDTH', '200');//px removed for validation
-define('HEADER_LOGO_HEIGHT', '70');//px removed for validation
+define('HEADER_LOGO_WIDTH', '192');//steve was 200px: incorrect and px removed for validation
+define('HEADER_LOGO_HEIGHT', '68');//steve was 70px: incorrect and px removed for validation
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
