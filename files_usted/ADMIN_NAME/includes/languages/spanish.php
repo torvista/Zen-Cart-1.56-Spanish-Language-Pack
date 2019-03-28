@@ -534,7 +534,7 @@ define('NOT_INSTALLED_TEXT', 'No Instalado');
   define('TEXT_MODEL', 'Modelo:');
 
 // column controller
-  define('BOX_TOOLS_LAYOUT_CONTROLLER', 'Disposición de los Cuadros');
+  define('BOX_TOOLS_LAYOUT_CONTROLLER', 'Disposición de los Recuadros');
 
 // check GV release queue and alert store owner
   define('TEXT_SHOW_GV_QUEUE', '%s esperando aprobación ');

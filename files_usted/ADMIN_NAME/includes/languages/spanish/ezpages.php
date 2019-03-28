@@ -22,8 +22,8 @@
 define('HEADING_TITLE', 'EZ-Pages');
 define('TABLE_HEADING_PAGES', 'Título de la Página');
 define('TABLE_HEADING_ACTION', 'Acción');
-define('TABLE_HEADING_VSORT_ORDER', 'Orden de los Cuadros');
-define('TABLE_HEADING_HSORT_ORDER', 'Orden de pie de página');
+define('TABLE_HEADING_VSORT_ORDER', 'Orden de los Recuadros');
+define('TABLE_HEADING_HSORT_ORDER', 'Orden de Pie de página');
 define('TEXT_PAGES_TITLE', 'Título:');
 define('TEXT_PAGES_HTML_TEXT', 'Contenido HTML:');
 define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadida:');

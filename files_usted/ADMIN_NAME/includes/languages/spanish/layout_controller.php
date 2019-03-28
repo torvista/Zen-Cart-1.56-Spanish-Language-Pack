@@ -20,7 +20,7 @@
 //  $Id: layout_controller.php 3197 2006-03-17 21:40:58Z drbyte $
 //
 
-define('HEADING_TITLE', 'Cuadros de las Columnas');
+define('HEADING_TITLE', 'Recuadros de las Columnas');
 
 define('TABLE_HEADING_LAYOUT_BOX_NAME', 'Nombre del archivo del recuadro');
 define('TABLE_HEADING_LAYOUT_BOX_STATUS', 'Columna Izq/Dch<br />ESTATUS');
@@ -45,9 +45,9 @@ define('TEXT_INFO_HEADING_NEW_BOX', 'Nuevo Recuadro');
 define('TEXT_INFO_HEADING_EDIT_BOX', 'Editar Recuadro');
 define('TEXT_INFO_HEADING_DELETE_BOX', 'Eliminar Recuadro');
 define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX','Eliminar recuadro faltante del listado de esta plantilla: ');
-define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiéndolo al directorio correcto.<br /><br /><strong>Eliminar nombre de cuadro: </strong>');
-define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Restablecer la configuración de los cuadros de la plantilla actual a la por DEFECTO');
-define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los cuadros. Sólo restablecerá el orden por defecto');
+define('TEXT_INFO_DELETE_MISSING_LAYOUT_BOX_NOTE','NOTA: Esto no elimina ficheros así que puede volver a añadir el cuadro en cualquier momento sólo añadiéndolo al directorio correcto.<br /><br /><strong>Eliminar nombre de recuadro: </strong>');
+define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER','Resetear el orden de los recuadros al orden POR DEFECTO de la plantilla: ');
+define('TEXT_INFO_RESET_TEMPLATE_SORT_ORDER_NOTE','Esto no elimina ninguno de los recuadros. Solo restablecerá el orden por defecto');
 define('TEXT_INFO_BOX_DETAILS','Detalles de Recuadro: ');
 
 ////////////////
@@ -74,7 +74,7 @@ define('TEXT_BAD_BOX','<font color="ff0000"><b>FALTA</b></font><br />');
 
 // Success message
 define('SUCCESS_BOX_DELETED', 'Borrado correctamente de la plantilla del recuadro: ');
-define('SUCCESS_BOX_RESET', 'La configuración de todos los cuadros fue restablecida correctamente al configuración por defecto de la Plantilla: ');
+define('SUCCESS_BOX_RESET', 'La configuración de todos los recuadros fue restablecida correctamente al configuración por defecto de la Plantilla: ');
 define('SUCCESS_BOX_UPDATED', 'Configuración del recuadro actualizada correctamente: ');
 
 define('TEXT_ON', ' ACTIVADO ');
