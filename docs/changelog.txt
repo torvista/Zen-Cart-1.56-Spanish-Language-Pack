@@ -1,6 +1,6 @@
 Changelog
 
-2019 03 28 changed cuadro to recuadro for sideboxes
+2019 03 28 changed cuadro to recuadro for sideboxes, correct encoding for some files
 2019 03 27 revised all files for Zen Cart 1.56a and uploaded to Github.
 
 Zen Cart 1.56

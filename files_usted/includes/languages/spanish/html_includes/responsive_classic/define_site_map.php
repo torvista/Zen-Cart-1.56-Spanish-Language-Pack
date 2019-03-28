@@ -1,2 +1,2 @@
-<p><strong>Puede usar este mapa para navegar r·pidamente por nuestra web.</strong></p>
-<p>Si no encuentra algo en nuestra tienda, por favor, pÛngase <a href="<?php echo zen_href_link(FILENAME_CONTACT_US, '', 'SSL'); ?>">en contacto con nosotros</a>.</p>
+<p><strong>Puede usar este mapa para navegar r√°pidamente por nuestra web.</strong></p>
+<p>Si no encuentra algo en nuestra tienda, por favor, p√≥ngase <a href="<?php echo zen_href_link(FILENAME_CONTACT_US, '', 'SSL'); ?>">en contacto con nosotros</a>.</p>

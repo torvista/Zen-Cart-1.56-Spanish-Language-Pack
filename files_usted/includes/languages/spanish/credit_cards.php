@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/**
+/**ñ for encoding
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
@@ -34,7 +34,7 @@ define('TEXT_CC_ENABLED_DISCOVER','Discover');
 define('TEXT_CC_ENABLED_JCB','JCB');
 define('TEXT_CC_ENABLED_AUSTRALIAN_BANKCARD','Australian Bankcard');
 define('TEXT_CC_ENABLED_SOLO','Solo');
-define('TEXT_CC_ENABLED_DEBIT','D�bito');
+define('TEXT_CC_ENABLED_DEBIT','Débito');
 define('TEXT_CC_ENABLED_MAESTRO','Maestro');
 
 // for images define these as:
