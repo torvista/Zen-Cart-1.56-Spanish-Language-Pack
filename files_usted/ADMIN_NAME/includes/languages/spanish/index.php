@@ -9,7 +9,7 @@
 
 define('HEADING_TITLE', 'Elija una acción...');
 
-define('BOX_TITLE_ORDERS', 'Pedidos');
+define('BOX_TITLE_ORDERS', 'Estados de los Pedidos');
 define('BOX_TITLE_STATISTICS', 'Estadísticas');
 
 define('BOX_TITLE_FEATURES_SALES', 'Ofertas / Destacados / Rebajas');
@@ -33,8 +33,8 @@ define('TOOLS_BACKUP', 'Copia de Seguridad');
 define('TOOLS_BANNERS', 'Banners');
 define('TOOLS_FILES', 'Archivos');
 
-define('WO_GRAPH_TITLE', 'Who\'s Online:');
-define('WO_GRAPH_MORE', 'more...');
+define('WO_GRAPH_TITLE', 'Quien está Online:');
+define('WO_GRAPH_MORE', 'mas...');
 define('WO_GRAPH_REGISTERED', 'Usuario:');
 define('WO_GRAPH_GUEST', 'Invitado:');
 define('WO_GRAPH_SPIDER', 'Spider:');
@@ -53,8 +53,8 @@ define('DASHBOARD_DOLLARS', 'Dólares');
 
 define('TEXT_COUNTER_HISTORY_TITLE', 'Historial de Visitantes – Últimas 14 días');
 
-define('TEXT_MONTHLY_SALES_TITLE', 'Ventas Mensuales (excluyendo los envíos)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Pinche aquí para los detalles...');
+define('TEXT_MONTHLY_SALES_TITLE', 'Ventas Mensuales (excluyendo envíos)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Pinche aquí para ver los detalles...');
 
 define('TEXT_SALES_TODAY', 'Ventas <strong>Hoy</strong> (%s) &nbsp;<strong>$%d</strong>');
 define('TEXT_SALES_YESTERDAY', '<strong>Ayer</strong> (%s) &nbsp;<strong>$%d</strong>');
@@ -63,7 +63,7 @@ define('REPORTS_PRODUCTS', 'Productos');
 define('REPORTS_ORDERS', 'Pedidos');
 
 define('BOX_ENTRY_CUSTOMERS', 'Clientes:');
-define('BOX_ENTRY_NEWSLETTERS', 'Suscritores del boletín:');
+define('BOX_ENTRY_NEWSLETTERS', 'Suscritores al Boletín:');
 
 define('BOX_ENTRY_PRODUCTS', 'Productos:');
 define('BOX_ENTRY_PRODUCTS_OFF', 'Productos desactivados:');

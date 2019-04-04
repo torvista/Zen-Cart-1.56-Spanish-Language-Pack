@@ -14,7 +14,7 @@ if (!defined('IS_ADMIN_FLAG'))
 define('CONNECTION_TYPE_UNKNOWN', '\'%s\' no es un tipo de conexión válido para generar URLs' . PHP_EOL . '%s' . PHP_EOL);
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Admin Zen Cart :: El Arte de E-Comercio');
+define('HEADER_ALT_TEXT', 'Inicio Admin');
 define('HEADER_LOGO_WIDTH', '192');//steve was 200px: incorrect and px removed for validation
 define('HEADER_LOGO_HEIGHT', '68');//steve was 70px: incorrect and px removed for validation
 define('HEADER_LOGO_IMAGE', 'logo.gif');
@@ -512,8 +512,8 @@ define('TEXT_VALID_CATEGORIES_NAME', 'Nombre Categorías');
 
 define('DEFINE_LANGUAGE', 'Elegir Idioma:');
 
-define('BOX_ENTRY_COUNTER_DATE', 'Contador de Hits Iniciado:');
-define('BOX_ENTRY_COUNTER', 'Contador de Hits:');
+define('BOX_ENTRY_COUNTER_DATE', 'Contador de Visitas iniciado:');
+define('BOX_ENTRY_COUNTER', 'Visitas:');
 
 // not installed
 define('NOT_INSTALLED_TEXT', 'No Instalado');

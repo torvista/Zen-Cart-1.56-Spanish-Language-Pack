@@ -25,7 +25,7 @@
                               '<br /><ul><li>DROP TABLE IF EXISTS</li><li>CREATE TABLE</li><li>INSERT INTO</li><li>ALTER TABLE</li>' .
                               '<li>UPDATE (sólo una tabla)</li><li>DELETE FROM</li><li>DROP INDEX</li><li>CREATE INDEX</li>' .
                               '<li>SELECT </li></ul>' . 
-'<h2>Advanced Methods</h2>Los siguientes métodos se pueden utilizar para sentencias más complejas si es necesario:<br />
+'<h2>Métodos Avanzados</h2>Los siguientes métodos se pueden utilizar para sentencias más complejas si es necesario:<br />
 Para ejecutar algunos bloques de código juntos, para que sean tratados como un sólo comando por MySQL, necesita configurar el valor "<code>#NEXT_X_ROWS_AS_ONE_COMMAND:xxx</code>" . El parser tratará X número de comandos como uno sólo.<br />
 Si está ejecutando este archivo a través de phpMyAdmin o equivalente, el comentario "#NEXT..." es ignorado, y el script se procesará correctamente.<br />
 <br /><strong>NOTA: </strong>Las sentencias SELECT.... FROM... y LEFT JOIN necesitan que el "FROM" o "LEFT JOIN" estén en una línea por sí mismos para que el parser pueda añadir el prefijo de tabla.<br /><br />
