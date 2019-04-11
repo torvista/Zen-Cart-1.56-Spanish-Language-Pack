@@ -13,11 +13,11 @@
   define('MODULE_ORDER_TOTAL_COUPON_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
 //  define('MODULE_ORDER_TOTAL_COUPON_HEADER', TEXT_GV_NAMES . '/Cupones de Descuento');//steve repeated constant
   define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');
-  define('TAX_NOT_INCLUDED', ' [Impuestos no incluido]');
+  define('TAX_NOT_INCLUDED', ' [Impuestos no incluidos]');
   define('IMAGE_REDEEM_VOUCHER', 'Canjear Cupón');
   define('MODULE_ORDER_TOTAL_COUPON_REDEEM_INSTRUCTIONS', '<p>Escriba el código de su cupón en la casilla "Código del Cupón". El cupón se aplicará cuando pulse en "Siguiente". Aviso importante: sólo puede usarse un cupón por pedido.</p>');
   define('MODULE_ORDER_TOTAL_COUPON_TEXT_CURRENT_CODE', 'Su código de descuento: ');
   define('MODULE_ORDER_TOTAL_COUPON_REMOVE_INSTRUCTIONS', '<p>Para eliminar el cupón de descuento teclee ENTER y pulse la tecla "Return".</p>');
-  define('TEXT_REMOVE_REDEEM_COUPON', '¡Cupón de descuento eliminado del pedido!');
+  define('TEXT_REMOVE_REDEEM_COUPON', '¡El Cupón de Descuento ha sido eliminado del pedido!');
   define('MODULE_ORDER_TOTAL_COUPON_INCLUDE_ERROR', ' Include tax = true, solamente cuando recalculate = None');
 ?>

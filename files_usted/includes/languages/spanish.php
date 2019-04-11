@@ -15,8 +15,8 @@
 
   define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Tienda Software:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
-// look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');//steve: to find what locales are available, use /extras/check_locale.php
+// look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
+  $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%d/%m/%Y'); // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -54,7 +54,7 @@
   define('TEXT_GV_NAMES', 'Tarjetas Regalo');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM', 'Código de la Tarjeta Regalo');
+  define('TEXT_GV_REDEEM', 'Código Canjeable');//steve this constant used for discount coupon too
 
 // used for redeem code sidebox
   define('BOX_HEADING_GV_REDEEM', TEXT_GV_NAME);
@@ -462,7 +462,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TEXT_FILESIZE_BYTES', ' bytes');
   define('TEXT_FILESIZE_KBS', ' KB');
   define('TEXT_FILESIZE_MEGS', ' MB');
-  define('TEXT_FILESIZE_UNKNOWN', 'Unknown');
+  define('TEXT_FILESIZE_UNKNOWN', 'Desconocido');
 
 // shopping cart errors
   define('ERROR_PRODUCT', '<br />El articulo: ');
@@ -607,7 +607,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TABLE_HEADING_LOGIN_DETAILS', 'Datos de Login');
   define('TABLE_HEADING_REFERRAL_DETAILS', '¿Cómo supo de nosotros?');
 
-  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envío/facturación en "%s". Por favor actualice esta dirección para continuar.');
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Lo sentimos, pero no tratamos con direcciones de envío/facturación en "%s". Por favor, contáctenos.');
 
   define('ENTRY_EMAIL_PREFERENCE', 'Boletín y preferencias de email');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');

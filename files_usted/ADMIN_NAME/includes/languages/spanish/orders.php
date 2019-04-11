@@ -113,7 +113,7 @@ define('SUCCESS_ORDER_UPDATED_DOWNLOAD_OFF', 'La descarga se desactivó con éxi
 define('TEXT_MORE', '... más');
 
 define('TEXT_INFO_IP_ADDRESS', 'Dirección IP: ');
-define('TEXT_DELETE_CVV_FROM_DATABASE','Borra CVV del base de datos database');
+define('TEXT_DELETE_CVV_FROM_DATABASE','Borra CVV de la base de datos');
 define('TEXT_DELETE_CVV_REPLACEMENT','Borrado');
 define('TEXT_MASK_CC_NUMBER','Esconder este número');
 

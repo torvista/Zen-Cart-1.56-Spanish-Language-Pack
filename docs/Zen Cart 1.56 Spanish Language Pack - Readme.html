@@ -51,9 +51,10 @@ img {
 <h2>2) Copy the files into your Zen Cart</h2>
 <h3>a) Rename the &quot;ADMIN_NAME&quot; folder to match the name of your admin folder.<br>
 </h3>
-<h3>b) Copy all the folders under &quot;files_usted&quot; into your shop folder. This should not overwrite any existing files...</h3>
-<p>In the folder /extras is a utility &quot;find_locales.php&quot; that can help you identify the locales available on your server and so use the correct ones in the spanish.php files, if the ones included by default do not correspond.</p>
-<pre>&#32;USAGE&#32;INSTRUCTIONS:<br>*&#32;1.&#32;Open&#32;your&#32;browser<br>*&#32;2.&#32;Enter&#32;the&#32;URL&#32;for&#32;your&#32;store,&#32;followed&#32;by&#32;/extras/find_locales.php<br>*&#32;3.&#32;...&#32;and&#32;press&#32;Enter</pre>
+<h3>b) Copy all the folders under &quot;files_usted&quot; into your shop folder.</h3>
+<p>This should only overwrite ONE file: the multiple flag icon <img src="../files_usted/includes/languages/english/images/icon_EN_multiple_flags_156.gif" width="96" height="14" alt="flags of some english-speaking countries"/> that was added in Zen Cart 1.56 for the english language.<br>
+  This large icon causes all the english text input boxes to be misaligned with other languages, so this language pack replaces it with a  single flag icon <img src="../files_usted/includes/languages/english/images/icon.gif" width="22" height="15" alt="British Flag
+"/>.</p>
 <h2>3) Register the Language in your Zen Cart</h2>
 <h3>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h3>
 <p>Click on &quot;new language&quot; and fill in the fields:</p>
@@ -93,11 +94,21 @@ img {
 <p>Copy the new files from the development to the production site and repeat step 3)</p>
 <p>Note that the order status titles (Admin-&gt;Localization-&gt;Order Status) will need to be manually translated in addition to all products and categories.</p>
 <h1>Problems</h1>
+<h2>Characters with accents displaying corrupted</h2>
+<p>Could be a file, database connection or database data with the incorrect encoding of UTF-8, search and read in the forum.</p>
+<h2>Dates not formatted correctly.</h2>
+<p>Possibly the locale is incorrect.</p>
+<p>In spanish.php, the two versions of this files contain these lines:</p>
+<pre>$locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');</pre>
+<p>This is a list of locales (if you don't know what that means, look it up). The values you can use depend on what is installed on the server (local or remote).</p>
+<p>Probably the values that are in there already will be fine for both a Windows/*nix hosting since if the server does not have one, it uses the next...</p>
+<p>If you want to know what your server supports, there is a script to check:</p>
+<p><a href="https://github.com/torvista/Zen-Cart-Test-Server-Locales" target="_blank">https://github.com/torvista/Zen-Cart-Test-Server-Locales</a></p>
 <h2>Untranslated Text/Mistakes/Improvements</h2>
 <p>If any text is untranslated/incorrect or could be improved, please post a message in the Github repository.</p>
-<p>If you see a constant name appear like &quot;TEXT_SOMETHING&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>
-Find this constant definition (it will probably only exist in the english language files) and replicate it in the corresponding language file.</p>
-<h3>Blank Screen/White Screen of Death</h3>
+<p>If you see a constant name appear like &quot;TEXT_SOMETHING_NEW&quot; instead of text, this means that particular constant is not defined for the currently-selected language.<br>
+Find this constant definition in your files (it will probably only be defined in the english language files) and replicate it in the corresponding language file, and TELL someone if it is someone else's fault.</p>
+<h2>Blank Screen/White Screen of Death</h2>
 <p> If you get white pages: check the debug log in the /logs directory and use this page to help you locate the fault: <a href="http://www.zen-cart.com/content.php?124-blank-page" target="_blank">http://www.zen-cart.com/content.php?124-blank-page</a>.</p>
 <h1>Buttons</h1>
 <p> The spanish button images for the classic template were created with the Zen Button Construction Kit:<br>

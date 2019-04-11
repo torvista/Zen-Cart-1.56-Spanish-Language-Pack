@@ -19,7 +19,7 @@ define('HEADER_LOGO_WIDTH', '192');//steve was 200px: incorrect and px removed f
 define('HEADER_LOGO_HEIGHT', '68');//steve was 70px: incorrect and px removed for validation
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
-// look in your $PATH_LOCALE/locale directory for available locales..
+// look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
 $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
 @setlocale(LC_TIME, $locales);
 define('DATE_FORMAT_SHORT', '%d/%m/%Y'); // this is used for strftime()
@@ -115,7 +115,7 @@ define('BOX_CONFIGURATION_REGULATIONS', 'Notificaciones Legales');
 define('BOX_CONFIGURATION_GV_COUPONS', 'Tarjetas Regalo');
 define('BOX_CONFIGURATION_CREDIT_CARDS', 'Tarjetas de Crédito');
 define('BOX_CONFIGURATION_PRODUCT_INFO', 'Info. del Producto');
-define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Opciones de Estructura');
+define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Opciones de Disposición');
 define('BOX_CONFIGURATION_WEBSITE_MAINTENANCE', 'Mantenimiento de la Tienda');
 define('BOX_CONFIGURATION_NEW_LISTING', 'Listado: Nuevos');
 define('BOX_CONFIGURATION_FEATURED_LISTING', 'Listado: Destacados');
@@ -510,7 +510,7 @@ define('TEXT_VALID_CATEGORIES_LIST', 'Lista de Categorías');
 define('TEXT_VALID_CATEGORIES_ID', 'ID de Categorías');
 define('TEXT_VALID_CATEGORIES_NAME', 'Nombre Categorías');
 
-define('DEFINE_LANGUAGE', 'Elegir Idioma:');
+define('DEFINE_LANGUAGE', 'Idioma:');
 
 define('BOX_ENTRY_COUNTER_DATE', 'Contador de Visitas iniciado:');
 define('BOX_ENTRY_COUNTER', 'Visitas:');
@@ -601,8 +601,8 @@ define('TEXT_STATUS_WARNING','<strong>NOTA:</strong> el estado se auto activa/de
 define('TEXT_LEGEND_LINKED', 'Producto enlazado');
 define('TEXT_MASTER_CATEGORIES_ID', 'Categoría Maestra del producto:');
 define('TEXT_LEGEND', 'LEYENDA: ');
-define('TEXT_LEGEND_STATUS_OFF', 'Estado OFF ');
-define('TEXT_LEGEND_STATUS_ON', 'Estado ON ');
+define('TEXT_LEGEND_STATUS_OFF', 'Deshabilitado ');
+define('TEXT_LEGEND_STATUS_ON', 'Habilitado ');
 
 define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>NOTA: La Categoría Maestra se usa para calcular el precio donde la categoría del producto afecta al precio en los productos enlazados, por ejemplo: Rebajas</strong>');
 define('TEXT_YES', 'Sí');

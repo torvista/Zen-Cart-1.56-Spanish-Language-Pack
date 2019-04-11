@@ -1,5 +1,8 @@
 Changelog
 
+2019 04 11 various minor changes post 156-merging checks.
+			removed check locales file to it's own repository
+			added single EN flag icon to overwrite multi-flag EN icon introduced in 156
 2019 03 28 changed cuadro to recuadro for sideboxes, correct encoding for some files
 2019 03 27 revised all files for Zen Cart 1.56a and uploaded to Github.
 
