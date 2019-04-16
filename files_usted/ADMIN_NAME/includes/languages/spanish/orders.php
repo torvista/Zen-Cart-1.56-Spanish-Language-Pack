@@ -131,7 +131,7 @@ define('TEXT_INVALID_ORDER_STATUS', '<span class="alert">(Estado del Pedido No V
 define('BUTTON_TO_LIST', 'Listado de Pedidos');
 define('SELECT_ORDER_LIST', 'Ir a Pedido:');
 
-define('TEXT_MAP_CUSTOMER_ADDRESS', 'Mapear Dirección Cliente');
-define('TEXT_MAP_SHIPPING_ADDRESS', 'Mapear Dirección Envío');
-define('TEXT_MAP_BILLING_ADDRESS', 'Mapear Dirección Facturación');
+define('TEXT_MAP_CUSTOMER_ADDRESS', 'Localizar Dirección Cliente');
+define('TEXT_MAP_SHIPPING_ADDRESS', 'Localizar Dirección Envío');
+define('TEXT_MAP_BILLING_ADDRESS', 'Localizar Dirección Facturación');
 

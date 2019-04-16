@@ -24,6 +24,6 @@ define('TEXT_TOTAL_ITEMS', 'Total de productos: ');
 define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Peso: ');
 define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Cantidad: ');
 
-define('TEXT_VISITORS_CART', '<a href="javascript:session_win();">[Ayuda (?)]</a>');
+define('TEXT_CART_HELP', '<a href="javascript:session_win();">[Ayuda (?)]</a>');
 define('TEXT_VISITORS_CART', TEXT_CART_HELP); // legacy define
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

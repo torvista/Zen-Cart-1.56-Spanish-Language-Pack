@@ -1,5 +1,5 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
-/** Note that this file has no english equivalent: the english constants are defined in the module code
+// Note that this file has no english equivalent: the english constants are defined in the module code
 define('TEXT_TIMEOUT_WARNING', '** AVISO **');
 define('TEXT_TIMEOUT_TIME_REMAINING', 'Tiempo restante:');
 define('TEXT_TIMEOUT_SECONDS', '¡segundos!');

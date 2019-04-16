@@ -153,7 +153,7 @@ define('BOX_CUSTOMERS_CUSTOMERS', 'Clientes');
 define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 define('BOX_CUSTOMERS_GROUP_PRICING', 'Precios por Grupo');
 define('BOX_CUSTOMERS_PAYPAL', 'PayPal IPN');
-define('BOX_CUSTOMERS_INVOICE', 'Pedido');
+define('BOX_CUSTOMERS_INVOICE', 'Factura');
 define('BOX_CUSTOMERS_PACKING_SLIP', 'Albarán');
 
 // taxes box text
@@ -351,7 +351,7 @@ define('IMAGE_NEW_ZONE', 'Nueva Zona');
 define('IMAGE_OPTION_NAMES', 'Gestor de Nombres de Opciones');
 define('IMAGE_OPTION_VALUES', 'Gestor de Valores de Opciones');
 define('IMAGE_ORDERS', 'Pedidos');
-define('IMAGE_ORDERS_INVOICE', 'Pedido');
+define('IMAGE_ORDERS_INVOICE', 'Factura');
 define('IMAGE_ORDERS_PACKINGSLIP', 'Albarán');
 define('IMAGE_PERMISSIONS', 'Cambiar Permisos');
 define('IMAGE_PREVIEW', 'Vista Previa');
