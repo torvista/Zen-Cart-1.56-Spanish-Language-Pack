@@ -13,7 +13,7 @@
 //define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping');
 // END: moved to meta_tags.php
 
-  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Tienda Software:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('FOOTER_TEXT_BODY', 'Derechos &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. E-commerce:<a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales...or use the script in /extras provided by this language pack
   $locales = array('es_ES.UTF8', 'es-ES', 'Spanish_Spain.1252', 'es');
@@ -67,7 +67,7 @@
   define('FEMALE_ADDRESS', 'Sra.');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm/yyyy'); 
+define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
 //text for sidebox heading links
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[todos]');
@@ -135,7 +135,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('BOX_HEADING_INFORMATION', 'Información');
   define('BOX_INFORMATION_PRIVACY', 'Aviso de privacidad');
   define('BOX_INFORMATION_CONDITIONS', 'Condiciones de uso');
-  define('BOX_INFORMATION_SHIPPING', 'Envío y devoluciones');
+  define('BOX_INFORMATION_SHIPPING', 'Envíos y Devoluciones');
   define('BOX_INFORMATION_CONTACT', 'Contáctenos');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Baja del boletín');
 
@@ -162,8 +162,8 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('JS_ERROR_SUBMITTED', 'El formulario está siendo enviado. Por favor, presione OK y espere a que se procese el proceso.');
 
   define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Por favor, seleccione un método de pago para su pedido.');
-  define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Por favor, confirme los términos y condiciones acerca de este pedido haciendo click en la casilla inferior.');
-  define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Por favor, confirme la política de privacidad haciendo click en la casilla inferior.');
+  define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Por favor, confirme los Términos y Condiciones acerca de este pedido haciendo click en la casilla inferior.');
+  define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Por favor, confirme la Política de Privacidad haciendo click en la casilla inferior.');
 
   define('CATEGORY_COMPANY', 'Datos de la empresa');
   define('CATEGORY_PERSONAL', 'Datos personales');
@@ -189,7 +189,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('ENTRY_LAST_NAME_ERROR', 'Cada apellido debe tener un mínimo de ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caracteres.');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
-  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener este formato: DD/MM/YYYY (ej. 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener el formato: DD/MM/YYYY (ej. 21/05/1970) o YYYY-MM-DD (ej 1970-05-21)');
   define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 21/05/1970)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mail:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'El e-mail debe tener un mínimo de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.');
@@ -226,9 +226,9 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('ENTRY_TELEPHONE_NUMBER_ERROR', 'El teléfono debe tener un mínimo de ' . ENTRY_TELEPHONE_MIN_LENGTH . ' números.');
   define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
   define('ENTRY_FAX_NUMBER', 'Fax:');
-  define('ENTRY_FAX_NUMBER_ERROR', '');
+  define('ENTRY_FAX_NUMBER_ERROR', 'El número de fax debe tener un mínimo de ' . ENTRY_TELEPHONE_MIN_LENGTH . ' números.');
   define('ENTRY_FAX_NUMBER_TEXT', '');
-  define('ENTRY_NEWSLETTER', 'Boletín:');
+  define('ENTRY_NEWSLETTER', 'Quiero recibir el boletín de ' . STORE_NAME . ' sobre productos nuevos.');
   define('ENTRY_NEWSLETTER_TEXT', '');
   define('ENTRY_NEWSLETTER_YES', 'Suscribirse');
   define('ENTRY_NEWSLETTER_NO', 'Darse de baja');
@@ -301,7 +301,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio para descargar los productos no existe: ' . DIR_FS_DOWNLOAD . '. Los productos descargables no trabajarán hasta que este directorio sea válido.');
   define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Advertencia: El directorio del cache SQL no existe: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que el directorio sea creado.');
   define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Advertencia: No se puede escribir en el directorio SQL cache: ' . DIR_FS_SQL_CACHE . '. SQL cache no podrá funcionar hasta que los permisos del usuario sean establecidos.');
-  define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'La versión de su base de datos parece demasiado antiguo, se necesita actualizarlo. Ver Admin->Herramientas->Info. del Servidor para revisar el nivel de actualización.');  
+  define('WARNING_DATABASE_VERSION_OUT_OF_DATE', 'La versión de su base de datos parece demasiado antiguo, se necesita actualizarlo. Ver Admin->Herramientas->Info. del Servidor para revisar el nivel de actualización.');
   define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'AVISO: No se pudo localizar el archivo del idioma: ');
 
   define('TEXT_CCVAL_ERROR_INVALID_DATE', 'La fecha de vencimiento de la tarjeta de crédito no es válido. Por favor revise la fecha e inténtelo de nuevo.');
@@ -360,7 +360,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('TEXT_YOUR_IP_ADDRESS', 'Su dirección IP es: ');
 
 //Generic Address Heading
-  define('HEADING_ADDRESS_INFORMATION', 'Información de la Dirección');
+  define('HEADING_ADDRESS_INFORMATION', 'Dirección');
 
 // cart contents
   define('PRODUCTS_ORDER_QTY_TEXT_IN_CART', 'Cantidad en el carro: ');
@@ -629,15 +629,10 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 
 ///////////////////////////////////////////////////////////
 
-  $file_list = array(FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS); 
-  foreach ($file_list as $file) { 
-    $file = str_replace(".php","",$file); 
-    if (file_exists(DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir . '/' . $file . '.php')) {
-      $template_dir_select = $template_dir . '/';
-    } else {
-      $template_dir_select = '';
-    }
-    require_once DIR_WS_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . $file . '.php'; 
+  $file_list = array(FILENAME_EMAIL_EXTRAS, FILENAME_HEADER, FILENAME_BUTTON_NAMES, FILENAME_ICON_NAMES, FILENAME_OTHER_IMAGES_NAMES, FILENAME_CREDIT_CARDS, FILENAME_WHOS_ONLINE, FILENAME_META_TAGS);
+  foreach ($file_list as $file) {
+    $file = str_replace(".php","",$file);
+    require_once(zen_get_file_directory(DIR_FS_CATALOG . DIR_WS_LANGUAGES . $_SESSION['language'] . '/', $file . '.php', 'false'));
   }
 
 // END OF EXTERNAL LANGUAGE LINKS

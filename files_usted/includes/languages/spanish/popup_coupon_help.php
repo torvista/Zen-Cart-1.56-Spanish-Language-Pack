@@ -25,7 +25,7 @@ define('TEXT_DENY', 'Denegar');
 define('TEXT_ALLOWED', ' (Permitido)');
 define('TEXT_DENIED', ' (Denegado)');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', 'Este Cupón tiene restricciones por productos específicas.');//steve removed opening p tag
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este Cupón tiene restricciones por productos específicas.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Este Cupón es válido para todas las categorías.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p> Este Cupón es válido para todos los productos.</p>');
 define('TEXT_NO_PROD_SALES', '<p>Este cupón no es válido para productos en rebajas/en oferta.</p>');
@@ -34,4 +34,3 @@ define('TEXT_NO_PROD_SALES', '<p>Este cupón no es válido para productos en reb
 define('TEXT_COUPON_GV_RESTRICTION', '<p>No es posible usar un Cupón de Descuento en la compra de ' . TEXT_GV_NAMES . '.</p>');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Existen restricciones en función de la dirección del cliente.');
-

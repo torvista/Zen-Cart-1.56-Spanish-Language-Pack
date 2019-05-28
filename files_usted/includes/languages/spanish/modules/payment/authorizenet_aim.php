@@ -18,10 +18,10 @@
   } else {
     define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_DESCRIPTION', '<a target="_blank" href="https://reseller.authorize.net/application.asp?id=131345"> Pinche aquí para abrir una cuenta </a><br /><br /><a target="_blank" href="https://account.authorize.net/">Authorize.net zona  Merchant </a><br /><br /><strong>Precisa:</strong><br /><hr />*<strong> Cuenta Authorize.net</strong> (ve el enlace arriba para abrir una)<br />*<strong>soporte CURL es imprescindible</strong> y debe ser compilada en PHP por su servicio de alojamiento. <br />*<strong>username Authorize.net and claves de transacción</strong> disponible de la zona Merchant<br><br>See <a href="https://www.zen-cart.com/content.php?291-how-to-set-up-the-authorizenet-aim-payment-module" target="_blank">the AIM Setup FAQ article</a> for detailed setup instructions.');
   }
-  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR_CURL_NOT_FOUND', 'no se encontraron las funciones CURL - requeridas para el módulo de pago Authorize.net AIM');
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_ERROR_CURL_NOT_FOUND', 'no se encontró las funciones CURL - requeridas para el módulo de pago Authorize.net AIM');
 
 // Catalog Items
-  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CATALOG_TITLE', 'Tarjeta de crédito');  // Titulo de la opción de pago como se le muestra al cliente
+  define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CATALOG_TITLE', 'Tarjeta de crédito');  // Payment option title as displayed to the customer
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_TYPE', 'Tipo de tarjeta de crédito:');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_OWNER', 'Propietario de la tarjeta:');
   define('MODULE_PAYMENT_AUTHORIZENET_AIM_TEXT_CREDIT_CARD_NUMBER', 'Número de la tarjeta:');

@@ -28,7 +28,7 @@ define('TEXT_COUPON_HELP_PRODUCTS', '<p class="bold">Restricciones por Producto:
 define('TEXT_ALLOW', 'Permitido');
 define('TEXT_DENY', 'No permitido');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene Restricciones por Productos específicos.');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Este cupón tiene restricciones para productos específicos.</p>');
 define('TEXT_NO_CAT_RESTRICTIONS', '<p>Este cupón es válido para cualquier categoría.</p>');
 define('TEXT_NO_PROD_RESTRICTIONS', '<p>Este cupón es válido para todos los productos.</p>');
 define('TEXT_CAT_ALLOWED', ' (Válido para esta categoría)');
@@ -42,4 +42,3 @@ define('TEXT_DISCOUNT_COUPON_ID_INFO', 'Verificar Cupón de Descuento ... ');
 define('TEXT_DISCOUNT_COUPON_ID', 'Su código: ');
 
 define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Se aplican restricciones por la Dirección de Facturación.');
-?>

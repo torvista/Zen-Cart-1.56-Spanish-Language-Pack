@@ -67,16 +67,20 @@ define('TEXT_COPY_DISCOUNTS_NO', 'No');
 
 // From categories.php in 1.5.5
 // categories status
-define('TEXT_INFO_HEADING_STATUS_CATEGORY', 'Cambiar el Estado de la Categoría para:');
-define('TEXT_CATEGORIES_STATUS_INTRO', 'Cambiar el Estado de la Categoría a: ');
-define('TEXT_CATEGORIES_STATUS_OFF', 'DESACTIVADO');
-define('TEXT_CATEGORIES_STATUS_ON', 'ACTIVO');
-define('TEXT_PRODUCTS_STATUS_INFO', 'Cambiar TODOS los Estados de los Productos a: ');
-define('TEXT_PRODUCTS_STATUS_OFF', 'DESACTIVADO');
-define('TEXT_PRODUCTS_STATUS_ON', 'ACTIVO');
+define('TEXT_INFO_HEADING_STATUS_CATEGORY', 'Cambiar el estado de la Categoría:');
+define('TEXT_CATEGORIES_STATUS_INTRO', 'Cambiar el estado de esta Categoría a: ');
+define('TEXT_CATEGORIES_STATUS_OFF', 'Desactivadas');
+define('TEXT_CATEGORIES_STATUS_ON', 'Activadas');
+define('TEXT_PRODUCTS_STATUS_INFO', 'Cambiar TODOS los estados de los productos incluidos a: ');
+define('TEXT_PRODUCTS_STATUS_OFF', 'Desactivados');
+define('TEXT_PRODUCTS_STATUS_ON', 'Activados');
 define('TEXT_PRODUCTS_STATUS_NOCHANGE', 'Sin Cambiar');
 define('TEXT_CATEGORIES_STATUS_WARNING', '<strong>PRECAUCIÓN ...</strong><br />Nota: Desactivar una categoría desactivará todos los productos de la categoría en cuestión. Los productos enlazados que se encuentren en ella y que están compartidos con otras categorías, también serán desactivados.');
-
+define('TEXT_SUBCATEGORIES_STATUS_INFO', 'Cambiar el estatus de las subcategoías a:');
+define('TEXT_SUBCATEGORIES_STATUS_OFF', 'Disactivado');
+define('TEXT_SUBCATEGORIES_STATUS_ON', 'Activado');
+define('TEXT_SUBCATEGORIES_STATUS_NOCHANGE', 'Sinc Cambiar');
 
 define('WARNING_PRODUCTS_IN_TOP_INFO', 'PRECAUCIÓN: Tiene Productos en la Categoría de Primer Nivel. Los precios no funcionarán correctamente en el catálogo. Productos encontrados: ');
 
+define('TEXT_COPY_MEDIA_MANAGER', '¿Copiar media?');

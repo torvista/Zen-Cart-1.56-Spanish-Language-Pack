@@ -35,8 +35,8 @@ define('TEXT_VOUCHER_IS', 'El código del cupón es ');
 define('TEXT_REMEMBER', 'No pierda el código del cupón, asegúrese de guardar bien el código, de esta manera puede beneficiarse de esta oferta especial.');
 define('TEXT_VISIT', 'Visítenos en ' . HTTP_SERVER . DIR_WS_CATALOG);
 define('TEXT_ENTER_CODE', ' e introduzca el código ');
-define('TEXT_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');//STEVE didn't validate with <p><p>
-define('HTML_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');///STEVE didn't validate with <p><p>
+define('TEXT_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');//STEVE didn't validate with <p></p>
+define('HTML_COUPON_HELP_DATE', 'El cupón es válido entre %s y %s.');///STEVE didn't validate with <p></p>
 
 define('TABLE_HEADING_ACTION', 'Acción');
 
@@ -55,7 +55,7 @@ define('ERROR_NO_CUSTOMER_SELECTED', 'Error: No seleccionó ningún cliente.');
 define('ERROR_NO_SUBJECT', 'Error: No se ha introducido ningún asunto.');
 
 define('COUPON_NAME', 'Nombre del Cupón');
-//define('COUPON_VALUE', 'Valor del Cupón);
+//define('COUPON_VALUE', 'Coupon Value');
 define('COUPON_AMOUNT', 'Valor del Cupón');
 
 define('TEXT_COUPON_PRODUCT_COUNT_PER_ORDER', 'Por Pedido');
@@ -109,6 +109,7 @@ define('COUPON_FREE_SHIP_HELP', 'El cupón permite el envío gratis en un pedido
 define('COUPON_DESC_HELP', 'Descripción del cupón para el cliente.');
 define('COUPON_MIN_ORDER_HELP', 'Valor Mínimo del Pedido para que el cupón sea válido.');
 define('COUPON_TOTAL_HELP', 'En el caso que especifique un Valor Mínimo de Pedido para este Cupón, ¿quiere comprobar el Valor Mínimo basado en los Productos Permitidos en acuerdo con las Restricciones o el Valor Total del Pedido?<br />NOTA: el Valor Total del Pedido precisa que por lo menos hay 1 Producto Permitido en el carro.');
+define('COUPON_SALE_HELP', 'Si elige <i>NO permitido</i>, los productos en Rebajas o Especiales no sumarán al total del valor mínimo necesario para el uso del Cupón.');
 define('COUPON_USES_COUPON_HELP', 'Número máximo de veces que el cupón puede ser usado. Déjelo en blanco si no hay límite.');
 define('COUPON_USES_USER_HELP', 'Número máximo de veces que un usuario puede usar un cupón. Déjelo en blanco si no hay límite.');
 define('COUPON_PRODUCTS_HELP', 'Una lista de product_ids (IDs de productos) separados por comas para los que este cupón puede ser usado. Dejar en blanco si no hay restricciones.');

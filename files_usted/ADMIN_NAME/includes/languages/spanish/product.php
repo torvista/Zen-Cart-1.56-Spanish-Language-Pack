@@ -72,15 +72,16 @@ define('TEXT_PRODUCT_DATE_ADDED', 'Se añadió el producto al catálogo el %s.')
 define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto será disponible el %s.');
 
 // meta tags
-define('TEXT_META_TAG_TITLE_INCLUDES', '<strong>Marcar qué ha de incluir el título de la meta tag del documento:</strong><br><span class="alert">NOTA: Estás opciones no tienen efecto ningún si no hay Palabras Claves o una Descripción introducidos abajo.</span>');
+define('TEXT_META_TAG_TITLE_INCLUDES', '<strong>Elija la estructura del título de la página.:</strong><br><span class="alert">NOTA: Si cualquier de los campos Palabras Claves o Descripción está vacío, todas las opciones (con la excepción de Precio) se quedarán en "Sí" por defecto.</span>');
 define('TEXT_PRODUCTS_METATAGS_PRODUCTS_NAME_STATUS', '<strong>Nombre:</strong>');
-define('TEXT_PRODUCTS_METATAGS_TITLE_STATUS', '<strong>Título:</strong>');
+define('TEXT_PRODUCTS_METATAGS_TITLE_STATUS','<strong>Añade texto del Título de Meta Tag:</strong>');
 define('TEXT_PRODUCTS_METATAGS_MODEL_STATUS', '<strong>Modelo:</strong>');
 define('TEXT_PRODUCTS_METATAGS_PRICE_STATUS', '<strong>Precio:</strong>');
 define('TEXT_PRODUCTS_METATAGS_TITLE_TAGLINE_STATUS', '<strong>Título+Tagline:</strong>');
-define('TEXT_META_TAGS_TITLE','<strong>Título Meta Tag:</strong><br><span class="alert">NOTE: el Título no tienen efecto ningún si no hay Palabras Claves o una Descripción introducidos abajo.</span>');
+define('TEXT_META_TAGS_TITLE','<strong>Título Meta Tag:</strong><br><span class="alert">NOTE: no se incluye el Meta Tag Título si el campo Meta Tag Descripción está vacio.</span>');
 define('TEXT_META_TAGS_KEYWORDS', '<strong>Palabras Clave Meta Tag:</strong>');
 define('TEXT_META_TAGS_DESCRIPTION', '<strong>Descripción Meta Tag:</strong>');
 define('TEXT_META_EXCLUDED', '<span class="alert">EXCLUIDO</span>');
+define('TEXT_TITLE_PLUS_TAGLINE', 'Título Tienda+Tagline'); // this refers to whatever rules the storeowner has built into customizing their catalog /includes/modules/meta_tags.php and its lang file.
 
 define('TEXT_PRODUCTS_PRICE_INFO', 'Precio:');

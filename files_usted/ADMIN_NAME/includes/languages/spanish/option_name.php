@@ -15,5 +15,6 @@
   define('TEXT_OPTION_TYPE', 'Tipo');
   define('TEXT_OPTION_NAME', 'Nombre de Opción');
   define('TEXT_SELECTED_LANGUAGE', 'Idioma: ');
+  define('TEXT_UPDATE_SUBMIT','Actualizar Órden');
 
   define('SUCCESS_OPTION_SORT_ORDER', 'Los órdenes de los Nombres de las Opciones han sido actualizados correctamente');

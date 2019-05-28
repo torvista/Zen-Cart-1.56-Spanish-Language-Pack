@@ -9,4 +9,4 @@ define('TEXT_TIMEOUT_STAY_LOGGED_IN', 'Continuar más...');
 define('TEXT_TIMEOUT_LOGOUT_NOW', 'Salir ahora');
 define('TEXT_TIMEOUT_TIMED_OUT_TITLE', 'Se ha cerrado la sesión automáticamente.');
 define('TEXT_TIMEOUT_LOGIN_AGAIN', 'Iniciar Sesión');
-define('TEXT_TIMEOUT_TIMED_OUT_MESSAGE', 'Su sesión ha expirado. Estaba inactivo, por lo que se cerró la sesión automáticamente');
+define('TEXT_TIMEOUT_TIMED_OUT_MESSAGE', 'Su sesión ha expirado porque estaba inactiva. La sesión se cerró automáticamente');

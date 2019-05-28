@@ -56,8 +56,9 @@ define('HEADING_TITLE_LAYOUT_TEMPLATE', 'Disposición de la Plantilla');
 
 define('TABLE_HEADING_LAYOUT_TITLE', 'Título');
 define('TABLE_HEADING_LAYOUT_VALUE', 'Valor');
-//define('TABLE_HEADING_ACTION', 'Acción');//steve duplicated constant
 
+define('TABLE_HEADING_BOXES_PATH', 'Ruta Recuadros: ');
+define('TEXT_WARNING_NEW_BOXES_FOUND', 'AVISO: Se ha encontrado Recuadros nuevos: ');
 
 define('TEXT_MODULE_DIRECTORY', 'Directorio de la disposición del sitio:');
 define('TEXT_INFO_DATE_ADDED', 'Añadido el:');

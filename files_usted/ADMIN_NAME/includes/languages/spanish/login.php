@@ -21,7 +21,7 @@ define('TEXT_ADMIN_CONFIRM_PASSWORD', 'Confirmar Contraseña');
 define('ERROR_WRONG_LOGIN', 'Contraseña o nombre de usuario incorrecto.');
 define('ERROR_SECURITY_ERROR', 'Había un error de seguridad en el intento de Login.');
 
-define('TEXT_PASSWORD_FORGOTTEN', '¿Contraseña Olvidada');//ZC156a has hard-coded ? suffix
+define('TEXT_PASSWORD_FORGOTTEN', '¿Contraseña Olvidada?');
 
 define('LOGIN_EXPIRY_NOTICE', '');
 define('ERROR_PASSWORD_EXPIRED', 'NOTA: Su contraseña ha caducado. Elija una contraseña nueva. La contraseña <strong>debe estar compuesta de LETRAS y NÚMEROS y tener un mínimo de 7 caracteres.</strong>');
