@@ -190,7 +190,7 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
   define('ENTRY_LAST_NAME_TEXT', '*');
   define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
   define('ENTRY_DATE_OF_BIRTH_ERROR', 'La fecha de nacimiento debe tener el formato: DD/MM/YYYY (ej. 21/05/1970) o YYYY-MM-DD (ej 1970-05-21)');
-  define('ENTRY_DATE_OF_BIRTH_TEXT', '(ej. 21/05/1970)');
+  define('ENTRY_DATE_OF_BIRTH_TEXT', '* (ej. 21/05/1970 o 1970-05-21)');
   define('ENTRY_EMAIL_ADDRESS', 'E-mail:');
   define('ENTRY_EMAIL_ADDRESS_ERROR', 'El e-mail debe tener un mínimo de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caracteres.');
   define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Este e-mail parece no ser válido - por favor, realice las correcciones necesarias.');
