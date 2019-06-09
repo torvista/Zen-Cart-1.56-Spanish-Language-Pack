@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: checkout_confirmation.php 4067 2006-08-06 07:26:21Z drbyte $
+ * @version $Id: Scott C Wilson 2019 Feb 14 Modified in v1.5.6b $
  */
 
 define('NAVBAR_TITLE_1', 'Comprar');

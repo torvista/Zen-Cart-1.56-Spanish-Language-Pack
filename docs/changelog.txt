@@ -1,5 +1,6 @@
 Changelog
-2019 05 27  changes for Zen Cart 1.56b
+2019 06 09  header changes to match pointless header changes made in zen-cart-v1.5.6b-05272019
+2019 05 27  changes for zen-cart-v1.5.6b-05262019
 
 2019 04 11  various minor changes post 156-merging checks.
 			removed check locales file to it's own repository

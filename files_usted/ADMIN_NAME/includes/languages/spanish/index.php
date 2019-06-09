@@ -1,10 +1,10 @@
 <?php //Spanish Language Pack for Zen Cart 1.5x: https://github.com/torvista/Zen-Cart-1.5x-Spanish-Language-Pack
 /**
  * @package admin
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Mon Aug 7 23:27:01 2017 -0400 Modified in v1.5.6 $
+ * @version $Id: DrByte 2019 Apr 25 Modified in v1.5.6b $
  */
 
 define('HEADING_TITLE', 'Elija una acción...');
@@ -56,8 +56,8 @@ define('TEXT_COUNTER_HISTORY_TITLE', 'Historial de Visitantes – Últimas 14 d�
 define('TEXT_MONTHLY_SALES_TITLE', 'Ventas Mensuales (excluyendo envíos)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
 define('TEXT_CLICK_FOR_COMPLETE_DETAILS', 'Pinche aquí para ver los detalles...');
 
-define('TEXT_SALES_TODAY', 'Ventas <strong>Hoy</strong> (%s) &nbsp;<strong>$%d</strong>');
-define('TEXT_SALES_YESTERDAY', '<strong>Ayer</strong> (%s) &nbsp;<strong>$%d</strong>');
+define('TEXT_SALES_TODAY', 'Ventas <strong>Hoy</strong> (%s) &nbsp;<strong>$%s</strong>');
+define('TEXT_SALES_YESTERDAY', '<strong>Ayer</strong> (%s) &nbsp;<strong>$%s</strong>');
 
 define('REPORTS_PRODUCTS', 'Productos');
 define('REPORTS_ORDERS', 'Pedidos');
@@ -114,6 +114,7 @@ define('TEXT_FORM_LABEL_STORE_OWNER_EMAIL', 'Email del Propietario');
 define('TEXT_FORM_LABEL_STORE_COUNTRY', 'País de la Tienda');
 define('TEXT_FORM_LABEL_STORE_ZONE', 'Zona de la Tienda');
 define('TEXT_FORM_LABEL_STORE_ADDRESS', 'Dirección de la Tienda');
+
 define('TEXT_STORE_NAME', 'Nombre de la Tienda');
 define('TEXT_STORE_OWNER', 'Propietario de la Tienda');
 define('TEXT_STORE_OWNER_EMAIL', 'Email del Propietario');
