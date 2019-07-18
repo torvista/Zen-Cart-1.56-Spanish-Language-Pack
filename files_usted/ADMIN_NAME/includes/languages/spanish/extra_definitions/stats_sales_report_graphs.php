@@ -8,4 +8,4 @@
  */
 
 define('BOX_REPORTS_SALES_REPORT_GRAPHS', 'Informe de Ventas con Gráficos');
-define('MONTH_TO_DATE', 'Del Mes hasta hoy');
+define('MONTH_TO_DATE', 'De este Mes hasta hoy');

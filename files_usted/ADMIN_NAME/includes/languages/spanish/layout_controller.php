@@ -68,5 +68,3 @@ define('TEXT_ON', ' ACTIVADO ');
 define('TEXT_OFF', ' DESACTIVADO ');
 define('TEXT_LEFT', ' IZQ ');
 define('TEXT_RIGHT', ' DCH ');
-
-?>

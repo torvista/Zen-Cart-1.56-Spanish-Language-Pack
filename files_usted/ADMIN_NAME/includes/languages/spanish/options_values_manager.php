@@ -94,7 +94,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con el nombre de opción: Tamaño
                                                    <br /><strong>Ejemplo:</strong> Añadir nombre de opción: Valor de opción de color: Verde con valores por defecto desde el ID de producto: 34 a todos los productos con nombre de opción: Tamaño para ID de categorías: 65
         ');
-  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre Opción a coincidir:');			 
+  define('TEXT_SELECT_OPTION_TO_ADD_TO', 'Nombre Opción a coincidir:');
   define('TEXT_SELECT_OPTION_FROM_ADD', 'Nombre de Opción a añadir:');
   define('TEXT_SELECT_OPTION_VALUES_FROM_ADD', 'Valor de Opción a añadir:');
   define('TEXT_SELECT_OPTION_FROM_PRODUCTS_ID', 'Copiar los valores por defecto del nuevo atributo del producto de este ID, o dejar la casilla en blanco para no usar un valor por defecto:');
@@ -119,3 +119,4 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Max:');
   define('ERROR_OPTION_VALUES_DELETE_MISMATCH', 'Error: Nombre de Opción y Valor de Opción no concordantes seleccionados');
 
   define('SUCCESS_OPTION_VALUES_DELETE', 'Exitosa borradura de: ');
+  

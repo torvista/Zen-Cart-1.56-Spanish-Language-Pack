@@ -5,7 +5,7 @@
  * @copyright Copyright 2003-2019 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: DrByte 2019 May 13 Modified in v1.5.6b $
+ * @version $Id: DrByte 2019 Jul 16 Modified in v1.5.6c $
  */
 define('HEADING_TITLE', 'Categorías / Productos');
 define('HEADING_TITLE_GOTO', 'Ir a:');
@@ -37,9 +37,14 @@ define('TEXT_INFO_CURRENT_CATEGORIES', 'Categorías Actuales: ');
 define('TEXT_INFO_HEADING_COPY_TO', 'Copiar A');
 define('TEXT_INFO_COPY_TO_INTRO', 'Elija la categoría a la que desea copiar este producto');
 define('TEXT_INFO_CURRENT_PRODUCT', 'Producto Actual: ');
-define('TEXT_HOW_TO_COPY', 'Método de Copiar:');
-define('TEXT_COPY_AS_LINK', 'Vincular producto');
-define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
+define('TEXT_HOW_TO_COPY', 'Tipo de Copia:');
+define('TEXT_COPY_AS_LINK', 'Vincular este producto a la categoría seleccionada');
+define('TEXT_COPY_AS_DUPLICATE', 'Duplicar Producto en la categoría seleccionada');
+define('TEXT_COPY_METATAGS','¿Copiar Metatags al Duplicado?');
+define('TEXT_COPY_LINKED_CATEGORIES','¿Copiar Categorías Vinculadas al Duplicado?');
+define('TEXT_COPY_AS_DUPLICATE_METATAGS', 'Se ha copiado los Metatags para Idioma ID#%u desde Producto ID#%u al Producto duplicado ID#%u');
+define('TEXT_COPY_AS_DUPLICATE_CATEGORIES', 'Se ha copiado la Categoría Vinculada ID#%u desde el Product ID#%u al Producto duplicado ID#%u');
+define('TEXT_COPY_AS_DUPLICATE_DISCOUNTS', 'Se ha copiado los Descuentos del Producto ID#%u al Producto duplicado ID#%u');
 define('TEXT_INFO_HEADING_ATTRIBUTE_FEATURES', 'Cambios de Atributos para Productos ID# ');
 define('TEXT_PRODUCTS_ATTRIBUTES_INFO', 'Características de Atributos para:');
 define('TEXT_PRODUCT_ATTRIBUTES_DOWNLOADS', 'Descargas: ');

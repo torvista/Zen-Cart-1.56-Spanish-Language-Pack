@@ -75,7 +75,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE', 'Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX', 'Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
   define('TABLE_HEADING_OPTION_VALUE_ROWS', 'Filas');
   define('TABLE_HEADING_OPTION_VALUE_COMMENTS', 'Comentarios');
 

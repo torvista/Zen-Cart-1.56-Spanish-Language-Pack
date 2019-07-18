@@ -65,8 +65,8 @@ img {
   Set as default: tick if you want the admin to display in spanish when you login.</p>
 <p>Click on &quot;Insert&quot;.</p>
 <p>If you get any warnings at this point: <strong>DO NOT IGNORE THEM! STOP, MAKE A NOTE OF THEM</strong>/<strong>take a screenshot</strong> and <strong><u>investigate the problem</u></strong>: Google is your friend here. Use the forum.</p>
-<p>At the moment of &quot;Insert&quot; all the existing data in english (category/product names/descriptions, order status) to their new corresponding spanish fields.</p>
-<p>The product/category data should be exported for more efficient bulk translation, so a file can be prepared for import.</p>
+<p>At the moment of &quot;Insert&quot;, all the existing database data in english (category/product names/descriptions, order status) are duplicated (not translated) to their new corresponding spanish fields.</p>
+<p>The product/category data should then be exported for more efficient bulk translation, and a spanish file prepared for import to overwrite/update the spanish fields.</p>
 <h2>4) Review the installation</h2>
 <h3>a) Check the Admin menus</h3>
 <p>Note that the text of the <strong>options</strong> of configuration settings can be stored in the database in one language only, and so are only available in english.</p>
@@ -94,6 +94,10 @@ img {
 <p>Copy the new files from the development to the production site and repeat step 3)</p>
 <p>Note that the order status titles (Admin-&gt;Localization-&gt;Order Status) will need to be manually translated in addition to all products and categories.</p>
 <h1>Problems</h1>
+<h2>PHP warnings</h2>
+<p>From PHP 7.2 onwards, warnings are raised for missing constants or duplicated constants. These need to be fixed.</p>
+<p>If the debug error occurs only with the spanish files, please report it in the thread for this language pack.</p>
+<p>If the debug error occurs with the english files too, report it in <a href="https://github.com/zencart/zencart/issues" target="_blank">Github</a>.</p>
 <h2>Characters with accents displaying corrupted</h2>
 <p>Could be a file, database connection or database data with the incorrect encoding of UTF-8, search and read in the forum.</p>
 <h2>Dates not formatted correctly.</h2>
