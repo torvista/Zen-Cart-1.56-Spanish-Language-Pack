@@ -10,4 +10,4 @@
   define('TEXT_GV_NAME','Tarjeta Regalo');
   define('TEXT_GV_NAMES','Tarjetas de Regalo');
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM','Código Canjeable');/
+  define('TEXT_GV_REDEEM','Código Canjeable');
