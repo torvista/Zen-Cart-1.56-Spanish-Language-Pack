@@ -75,7 +75,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
 
   define('TABLE_HEADING_OPT_TYPE', 'Tipo de opción'); //CLR 031203 add option type column
   define('TABLE_HEADING_OPTION_VALUE_SIZE', 'Tamaño');
-  define('TABLE_HEADING_OPTION_VALUE_MAX','Max');
+  define('TABLE_HEADING_OPTION_VALUE_MAX', 'Max');
   define('TABLE_HEADING_OPTION_VALUE_ROWS', 'Filas');
   define('TABLE_HEADING_OPTION_VALUE_COMMENTS', 'Comentarios');
 
@@ -143,7 +143,7 @@ define('TABLE_TEXT_MAX_COUNT_SHORT', 'Máx:');
   define('TEXT_DELETE_ALL_ATTRIBUTES', '¿Seguro que desea eliminar todos los atributos para ID# ');
 
   define('TEXT_ATTRIBUTE_COPY_SKIPPING', '<strong>Ignorar nuevos atributos</strong> ');
-  define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando nuevos atributos desde</strong> ');
+  //define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando nuevos atributos desde</strong> ');//steve removed for php warning as per ZC157
   define('TEXT_ATTRIBUTE_COPY_UPDATING', '<strong>Actualizando desde el atributo</strong> ');
 
 // preview

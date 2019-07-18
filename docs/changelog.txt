@@ -1,5 +1,5 @@
 Changelog
-2019 07		updates for Zen Cart 1.56c.
+2019 07		updates for Zen Cart 1.56c, and php warnings for duplicated/missing constants.
 2019 06   	admin: TEXT_GV_REDEEM repeated and gv_name.php not encoded utf-8.
 2019 06 09  header changes to match pointless header changes made in zen-cart-v1.5.6b-05272019
 2019 05 27  changes for zen-cart-v1.5.6b-05262019

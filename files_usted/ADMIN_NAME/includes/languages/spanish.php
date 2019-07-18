@@ -28,7 +28,7 @@ define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
 define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 // for now both defines are needed until Spiffy is completely removed.
-define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy'); //Use only 'dd', 'MM' and 'yyyy' here in any order 
+define('DATE_FORMAT_SPIFFYCAL', 'dd/MM/yyyy'); //Use only 'dd', 'MM' and 'yyyy' here in any order
 define('DATE_FORMAT_DATE_PICKER', 'yy-mm-dd');  //Use only 'dd', 'mm' and 'yy' here in any order
 define('ADMIN_NAV_DATE_TIME_FORMAT', '%A %d %b %Y %X'); // this is used for strftime()
 ////
@@ -697,6 +697,8 @@ define('ENTRY_NOTHING_TO_SEND', 'No ha introducido ningún contenido para su men
   define('ERROR_DEFINE_OPTION_VALUES', 'Aviso: No se han definido Valores de Opciones');
   define('ERROR_DEFINE_PRODUCTS', 'Aviso: No se ha definido ningunos Productos');
   define('ERROR_DEFINE_PRODUCTS_MASTER_CATEGORIES_ID', 'Aviso: No se ha sido definido ningún ID Categoría Maestra para este Producto');
+  define('ERROR_DEFINE_PRODUCTS_FILTER', 'Aviso: No hay un producto seleccionado');//steve missing from 156c
+  define('WARNING_DUPLICATE_PRODUCTS_TO_CATEGORY_LINKED', 'Aviso: No se puede enlazar un producto a la misma categoría');//steve missing from 156c
 
   define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_ON', 'Añadir incluir subcategorías');
   define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_OFF', 'Añadir sin subcategorías');

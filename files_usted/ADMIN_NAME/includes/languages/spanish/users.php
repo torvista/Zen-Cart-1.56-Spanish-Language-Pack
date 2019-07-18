@@ -13,7 +13,7 @@ define('IMAGE_ADD_USER', 'Añadir Usuario');
 
 define('TEXT_ID', 'ID');
 define('TEXT_NAME', 'Nombre');
-define('TEXT_EMAIL', 'Email');
+//define('TEXT_EMAIL', 'Email');//steve duplicated, removed in ZC157
 define('TEXT_PROFILE', 'Perfil');
 define('TEXT_CHOOSE_PROFILE', 'Elegir Perfil');
 define('TEXT_PASSWORD', 'Contraseña');

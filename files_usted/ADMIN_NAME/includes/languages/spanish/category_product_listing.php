@@ -55,7 +55,7 @@ define('TEXT_COPY_ATTRIBUTES_CONDITIONS', '<strong>¿Cómo deberían gestionarse
 define('TEXT_COPY_ATTRIBUTES_DELETE', 'Primero <strong>borrar</strong>, luego copiar los nuevos atributos');
 define('TEXT_COPY_ATTRIBUTES_UPDATE', '<strong>Actualizar</strong> con nuevas parámetros/precios, luego añadir nuevos');
 define('TEXT_COPY_ATTRIBUTES_IGNORE', '<strong>Ignorar</strong> y añadir sólo los atributos nuevos');
-define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando Atributo Nuevo desde</strong>');
+//define('TEXT_ATTRIBUTE_COPY_INSERTING', '<strong>Agregando Atributo Nuevo desde</strong>');//steve removed for PHP warning as per ZC157
 define('ICON_ATTRIBUTES', 'Características del Atributo');
 
 // Products and Attribute Copy Options

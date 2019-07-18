@@ -6,7 +6,8 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: DrByte 2019 May 26 Modified in v1.5.6b $
  */
-
+  define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');//steve moved from ot_gv.php and ot_coupon.php for php warning
+  define('TAX_NOT_INCLUDED', ' [Impuestos no incluidos]');//steve moved from ot_gv.php and ot_coupon.php for php warning
 // FOLLOWING WERE moved to meta_tags.php
 //define('TITLE', 'Zen Cart!');
 //define('SITE_TAGLINE', 'The Art of E-commerce');
@@ -373,10 +374,10 @@ define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
 // only for where multiple add to cart is used:
   define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'El producto(s) seleccionado ha sido añadido al carro ...');
 
-  define('TEXT_PRODUCT_WEIGHT_UNIT',' kg');
+  define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
 
 // Shipping
-  define('TEXT_SHIPPING_WEIGHT',' kg');
+  define('TEXT_SHIPPING_WEIGHT','kg');
   define('TEXT_SHIPPING_BOXES', 'Cajas');
 
 // Discount Savings

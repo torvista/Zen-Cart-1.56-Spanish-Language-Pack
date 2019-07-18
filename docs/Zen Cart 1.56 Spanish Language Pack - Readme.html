@@ -55,6 +55,10 @@ img {
 <p>This should only overwrite ONE file: the pointless multiple flag icon <img src="../files_usted/includes/languages/english/images/icon_EN_multiple_flags_156.gif" width="96" height="14" alt="flags of some english-speaking countries"/> that was added in Zen Cart 1.56 for the english language.<br>
   This large icon causes all the english text input boxes to be misaligned with other languages, so this language pack replaces it with a  single flag icon <img src="../files_usted/includes/languages/english/images/icon.gif" width="22" height="15" alt="British Flag
 "/>.</p>
+<p>c) To stop php warnings/debug logs, multiple instances of TEXT_ATTRIBUTE_COPY_INSERTING have been removed as per Zen Cart 157. However the constant has changed to include variables. Consequently, the code that uses TEXT_ATTRIBUTE_COPY_INSERTING has also changed in ZC157. The code change is included in the file </p>
+<p>ADMIN_NAME\includes\functions\general.156c with mod 157 php</p>
+<p>so you can easily compare/merge that change into your (possibly already customised) file: general.php</p>
+<p>If you don't do this, the admin success message that appears when you copy attributes will be missing the product from/to IDs....not a showstopper, so it doesn't matter if you don't do this.</p>
 <h2>3) Register the Language in your Zen Cart</h2>
 <h3>Go into the Zen Cart Admin-&gt;Localization-&gt;Languages</h3>
 <p>Click on &quot;new language&quot; and fill in the fields:</p>

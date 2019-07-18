@@ -10,8 +10,8 @@
   define('MODULE_ORDER_TOTAL_GV_TITLE', TEXT_GV_NAMES);
   define('MODULE_ORDER_TOTAL_GV_HEADER', TEXT_GV_NAMES . '/Cupones de Descuento');
   define('MODULE_ORDER_TOTAL_GV_DESCRIPTION', TEXT_GV_NAMES);
-  define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');
-  define('TAX_NOT_INCLUDED', ' [Impuestos no incluidos]');
+  //define('SHIPPING_NOT_INCLUDED', ' [Envío no incluido]');//steve moved to spanish.php for php warning
+  //define('TAX_NOT_INCLUDED', ' [Impuestos no incluidos]');//steve moved to spanish.php for php warning
   define('MODULE_ORDER_TOTAL_GV_USER_PROMPT', 'Aplicar saldo ->&nbsp;');
   define('MODULE_ORDER_TOTAL_GV_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
   define('TEXT_INVALID_REDEEM_AMOUNT', 'La cantidad aplicada y la cantidad del cupón no cuadran. Inténtalo otra vez.');

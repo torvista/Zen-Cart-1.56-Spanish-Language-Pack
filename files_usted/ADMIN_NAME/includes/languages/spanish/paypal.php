@@ -61,7 +61,7 @@
   define('TEXT_INFO_TXN_TYPE', 'Tipo de transacción');
   define('TEXT_INFO_PAYMENT_STATUS', 'Estado del pago');
   define('TEXT_INFO_PAYMENT_AMOUNT', 'Cantidad');
-  define('ENTRY_FIRST_NAME', 'Nombre');
+  //define('ENTRY_FIRST_NAME', 'Nombre');//steve duplicated, removed in ZC157
   define('ENTRY_LAST_NAME', 'Apellidos');
   define('ENTRY_BUSINESS_NAME', 'Nombre de la empresa');
   define('ENTRY_ADDRESS', 'Dirección');
