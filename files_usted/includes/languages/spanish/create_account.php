@@ -39,7 +39,7 @@ define('EMAIL_GV_LINK_OTHER', 'Una vez que haya añadido el ' . TEXT_GV_NAME . '
 
 define('EMAIL_TEXT', 'Su nueva cuenta le da acceso a los siguientes servicios:' . "\n\n" . '<ul><li><strong>Carro Permanente</strong> - Cualquier de los productos añadidos a su carro online permanecerán allí hasta que usted los elimine o los compre.</li>' . "\n\n" . '<li><strong>Agenda de Direcciones</strong> : ¡Ahora podemos enviarle sus productos a otra dirección distinta a la suya! La opción perfecta para poder enviar regalos directamente a la persona deseada.</li>' . "\n\n" . '<li><strong>Histórico de Pedidos</strong> : Vea el historial de las compras que ha realizado con nosotros.</li>' . "\n\n" . '<li><strong>Comentarios de Productos</strong> : Comparta sus opiniones sobre los productos con nuestros otros clientes.</li>' . "\n\n". '</ul>');
 define('EMAIL_CONTACT', 'Si necesita ayuda con cualquiera de nuestros servicios online, por favor, envíenos un email a: ' . STORE_OWNER_EMAIL_ADDRESS . "\n\n");
-define('EMAIL_GV_CLOSURE', "\n" . 'Atentamente,' . "\n\n" . STORE_OWNER . "\nStore Owner\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">'.HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
+define('EMAIL_GV_CLOSURE', "\n" . 'Atentamente,' . "\n\n" . STORE_OWNER . "\nPropietario\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">'.HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
 
 // email disclaimer - this disclaimer is separate from all other email disclaimers
 define('EMAIL_DISCLAIMER_NEW_CUSTOMER', 'Este email nos ha sido facilitado por usted o por alguien que se ha registrado en nuestra tienda. Si no ha sido usted, o piensa que ha recibido este mensaje por error, por favor, envíe un email a %s ');
