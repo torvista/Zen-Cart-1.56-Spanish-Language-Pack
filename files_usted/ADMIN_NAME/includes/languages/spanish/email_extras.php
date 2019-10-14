@@ -27,7 +27,7 @@
   define('OFFICE_USE', 'Sólo para uso interno:');
   define('OFFICE_LOGIN_NAME', 'Nombre de usuario:');
   define('OFFICE_LOGIN_EMAIL', 'E-mail de usuario:');
-  define('OFFICE_LOGIN_PHONE','<strong>Teléfono:</strong>');
+  define('OFFICE_LOGIN_PHONE','Teléfono:');
   define('OFFICE_IP_ADDRESS', 'Dirección IP:');
   define('OFFICE_HOST_ADDRESS', 'Host:');
   define('OFFICE_DATE_TIME', 'Fecha y Hora:');

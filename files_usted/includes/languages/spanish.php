@@ -68,7 +68,7 @@
   define('FEMALE_ADDRESS', 'Sra.');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
+  define('DOB_FORMAT_STRING', 'dd/mm/aaaa');
 
 //text for sidebox heading links
   define('BOX_HEADING_LINKS', '&nbsp;&nbsp;[todos]');

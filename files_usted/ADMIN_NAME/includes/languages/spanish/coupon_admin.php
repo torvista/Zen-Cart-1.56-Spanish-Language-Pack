@@ -27,7 +27,7 @@ define('TEXT_NEWSLETTER_CUSTOMERS', 'A todos los suscritores del boletín');
 define('TEXT_CONFIRM_DELETE', '¿Seguro que desea eliminar este cupón?');
 define('TEXT_SEE_RESTRICT', 'Restricciones aplicadas');
 
-define('TEXT_COUPON_ANNOUNCE','Nos satisface ofrecerle un cupón de nuestra tienda');
+define('TEXT_COUPON_ANNOUNCE','Nos satisface ofrecerle un cupón de nuestra tienda.');
 
 define('TEXT_TO_REDEEM', 'Puede canjear este cupón durante el pago. Sólo introduzca el código en el casillero asignado, y pulse sobre el botón de canjear.');
 define('TEXT_IN_CASE', ' en caso que tenga algún problema. ');
