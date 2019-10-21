@@ -25,7 +25,7 @@
   define('MODULE_PAYMENT_PAYPALDP_PF_TEXT_TYPE', ' Tarjeta de Crédito (PF)');
   define('MODULE_PAYMENT_PAYPALDP_ERROR_HEADING', 'Lo sentimos pero no pudimos procesar su tarjeta de crédito.');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CARD_ERROR', 'La información de la tarjeta que introduzco tiene un error. Revíselo e intente otra vez.');
-  define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_FIRSTNAME', ' Nombre de pila del propietario de la tarjeta:');
+  define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_FIRSTNAME', ' Nombre del propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_LASTNAME', 'Apellidos del propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_OWNER', 'Propietario de la tarjeta:');
   define('MODULE_PAYMENT_PAYPALDP_TEXT_CREDIT_CARD_TYPE', 'Tipo de Tarjeta:');
