@@ -69,7 +69,7 @@ define('BUTTON_CREATE_ACCOUNT_ALT', 'Crear Cuenta');
 define('BUTTON_LOG_OFF_ALT', 'Salir');
 define('BUTTON_ADD_TO_CART_ALT', 'Añadir al Carro');
 define('BUTTON_ADD_ADDRESS_ALT', 'Añadir Dirección');
-define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Añadir Los Seleccionados al Carro');
+define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Añadir Productos al Carro');
 define('BUTTON_BACK_ALT', 'Atrás');
 define('BUTTON_BUY_NOW_ALT', 'Comprar ahora');
 define('BUTTON_CANCEL_ALT', 'Cancelar');
