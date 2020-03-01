@@ -766,7 +766,7 @@ define('BOX_HEADING_PRODUCT_TYPES', 'Tipos de Productos');
 define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: Parece que hay un problema con la base de datos. Precisa mantenimiento. </a>');
 
 // moved from currencies file:
-define('TEXT_INFO_CURRENCY_UPDATED', 'La tasa de cambio para %s (%s) fue actualizada correctamente a través de %s.');
+define('TEXT_INFO_CURRENCY_UPDATED', 'La tasa de cambio para %s (%s) fue actualizada correctamente a %s a través de %s.');
 define('ERROR_CURRENCY_INVALID', 'Error: La tasa de cambio para %s (%s) no fue actualizada a través de %s. ¿Es un código de moneda correcto?');
 define('WARNING_PRIMARY_SERVER_FAILED', 'Advertencia: El servidor primario de tasas de cambio (%s) falló para %s (%s); comprobando el servidor de tasa de cambio secundario.');
 
